@@ -1,7 +1,5 @@
 
-  
-
-<style>
+   
     *{
         color: #045c91;
     }
@@ -59,6 +57,7 @@
     }
 	.txtFormAcad{
 		font-size: 14pt;
+        color: #045c91;
 	}
 	
 	.endItem{
