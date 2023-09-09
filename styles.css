@@ -1,4 +1,111 @@
-body{
-  background: red;
-  width: 800px;
-}
+
+
+/***
+
+
+<style>
+    *{
+        color: #045c91;
+    }
+    .profiction{
+        margin: 12px 0px 42px 0px;
+		
+    }
+    .txt{
+        margin: 5px;
+    }
+    li{
+        text-align: justify;
+        list-style: none;
+    }
+	h2{
+		font-size: 28pt;
+		color: #045c91;
+	}
+    h3{
+        text-align: center;
+		padding: 5px 0px;
+		margin-bottom:20px;
+    }
+    h5{
+        margin: 0px 0px 12px 0px;
+    }
+	
+	h4{	
+		font-size: 14pt;
+		text-align: center;
+		margin: 15px 0px;
+	}
+    h6{
+        margin-left: 30px;
+    }
+    p{
+        font-family: "Uni Sans Caps", Sans-serif;
+
+        text-align: justify;
+    }
+    ul li{
+	padding: 12px 0px;
+    }
+    .bg-update{
+        background: #045c91;
+    }
+    .colorFnttitle{
+        color: #ec531a;
+    }
+	.colorExp{
+		color: red;
+	}
+    .bg-cinza{
+        background: #eee;
+    }
+	.txtFormAcad{
+		font-size: 14pt;
+	}
+	
+	.endItem{
+		padding: 0px 0px 15px 0px;
+	}
+    .fontIcon-pc{
+        font-size: 52pt;
+        background:white;
+        padding: 45px;
+        border-radius: 50%;
+    }
+    .colorFontWhite{
+        color: black;
+        padding: 15px 0px;
+    }
+    .miniFont{
+        font-size: 9pt;
+    }
+    footer{
+        color:white;
+		font-size: 11pt;
+    }
+    .foot{
+        padding: 35px 0px;
+        text-align: center;
+        color: white;
+    }
+    .xp{
+        background: #7ec53860;
+        padding: 45px 0px;
+    }
+    .cores{
+        color: white;
+    }
+	
+	.bg-green{
+		background: #7ec53860;
+	}
+	.contacts{
+		color: white;
+	}
+	 a{
+		text-decoration: none;
+		color: orange;
+	 }
+  </style>
+
+  ****/
