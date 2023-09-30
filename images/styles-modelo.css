@@ -1,0 +1,23 @@
+.section-01{
+    background-color: #1c1e1f;
+    color: white;
+}
+
+.border-menu{
+    border-bottom: 0.5px solid rgb(159, 152, 152,60);
+}
+
+.btn-size{
+    width: 210px;
+    font-size: 14px;
+}
+
+/**TO MOBILE***/
+@media only screen and (max-width: 769px) {
+   
+    .btn-size{
+        margin: 4px 0px;
+    }
+    
+
+}
