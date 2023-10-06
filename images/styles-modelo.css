@@ -1,6 +1,25 @@
-.section-01, .section-02{
+.section-01, .section-02, .section-03, .section-06, .section-07{
     background-color: #1c1e1f;
     color: white;
+}
+
+.body-logo{
+    width: 200px;
+}
+.logo{
+    font-size: 28px;
+}
+
+.shadow-imag-section-01{
+    box-shadow: 3px 2px 2px 0px rgba(88, 85, 85, 0.75);
+    border-radius: 5px;
+}
+.shadow-imag-section-01:hover{
+    box-shadow: 3px 2px 2px 0px rgba(253, 56, 56, 0.75);
+}
+.section-04{
+    background-color: #1c1f2e;
+    color: #fff;
 }
 
 .border-menu{
@@ -48,15 +67,111 @@
  .icon-size-section-02-right{
     font-size: 22px;
  }
+
+ .card-section-03{
+    text-align: center;
+    border-radius: 5px;
+    background: #393e44;
+    padding: 0.5rem;
+ }
+
+ .border-mercFin{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1.5rem;
+ }
+
+ .font-fw-mercFin{
+    font-weight: 700;
+ }
+
+ .font-300{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+
+/***section 04**/
+
+.fa-google-play{
+    font-size: 40px;
+}
+
+.container-flex-gPlay{
+    display: flex;
+    align-items: center;
+    gap:27px;
+    border-radius: 5px;
+    width: 250px;
+    padding: 15px 25px;
+    background-color: #252b3b;
+    border: 1px solid #252b3b;
+}
+
+.img-section-04{
+    max-width: 40%;
+}
+
+/***SECTION 05***/
+
+.section-05 { background-color: #252b3b;
+color: #fff;
+}
+
+
+p.btn{
+    background-color: #dde3ca;
+    font-size: 13px;
+    color: #066ae4;
+    width: 250px;
+}
+
+
+
+/***SECTION 06****/
+.item-faq{
+    padding: 13px;
+    border-radius:5px;
+    display: flex;
+    justify-content:space-between;
+    background-color:  #dde3ca;
+    color: #066ae4;
+    margin: 20px 0px;
+}
+
+.fa-file-lines{
+    margin-right: 1rem;
+}
+  .item-faq-end{
+     width: 280px;
+ }
+  
+ .svg-icon{
+    width: 30px;
+ }
+
+
+ /***SECTION 07**/
+
+ .icon-logo{
+    width: 50px;
+    height: 50px;
+ }
 /**TO MOBILE***/
 @media only screen and (max-width: 769px) {
    
     .btn-size{
         margin: 4px 0px;
     }
-    
     .display-none-cell{
         display: none;
-    }
+    } 
+}
 
+
+/***TO MOBILE section-03**/
+@media only screen and (max-width: 767px){
+    .row .text-center{
+        margin: 0;
+        padding: 0;
+    }
 }
