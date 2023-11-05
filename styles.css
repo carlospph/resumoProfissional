@@ -8,6 +8,7 @@
 }
 body{
      width: 390px;
+     background: #ffdddd60;
 }
 
 :root{
@@ -64,6 +65,7 @@ header{
     color: var(--branco);
     border-radius: 5px;
     padding: 0.2rem;
+    margin:0rem 0.4rem;
     height: 90px;
     width: 100px;
 }
@@ -85,11 +87,12 @@ h3{
 }
 
 .mini-banner{
-    padding: 0.5rem 2.1rem;
+    padding: 0.5rem 1.7rem;
     border-radius: 5px;
     text-align: center;
     background: var(--azul-padrao);
     color: var(--branco);
+     margin:0rem 0.4rem;
 }
 
 .container-flex-col{
