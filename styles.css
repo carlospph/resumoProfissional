@@ -1,111 +1,100 @@
+@import "stylesBanner.css";
 
-   
-    *{
-        color: #045c91;
-    }
-    .profiction{
-        margin: 12px 0px 42px 0px;
-		
-    }
-    .txt{
-        margin: 5px;
-    }
-    li{
-        text-align: justify;
-        list-style: none;
-    }
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    list-style:none;
+}
+body{
+     width: 320px;
+}
 
-    h1.title-header,h3.title-header,h6.title-header{
-        color: #ffffff;
-    }
-	h2{
-		font-size: 28pt;
-		color: #045c91;
-	}
-    h3{
-        text-align: center;
-		padding: 5px 0px;
-		margin-bottom:20px;
-    }
+:root{
+    --azul-padrao: #202C84;
+    --branco: #FFFFFF;
+    --rosa: #D51482;
+}
 
-    h4{	
-		font-size: 14pt;
-		text-align: center;
-		margin: 15px 0px;
-	}
-    h5{
-        margin: 0px 0px 12px 0px;
-    }
-	
-	
-    h6{
-        margin-left: 30px;
-    }
-    p{
-        font-family: "Uni Sans Caps", Sans-serif;
+header{
+    background: var(--branco);
+    padding: 0px 0px 0.6rem 0px;
+}
+.doc-main{
+    width: 310px;
+    margin: 0 auto;
+}
+.container-flex-main{
+    display: flex;
+    flex-direction: column;
+ }
+.container-menu{
+          justify-content: end;
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+}
+.menu{ 
+     margin-bottom: -15px;
+ }
+ ul{
+     margin-top: 0.5rem;
+ }
+ ul > li{
+     text-align: center;
+     background: black;
+     color: var(--branco);
+     padding: 0.6rem 97px;
+     border-bottom: 1px solid white;
+     display: block;
+ }
+ ul > li >a{
+     display: block;
+     color: var(--branco);
+     text-decoration: none;
+ }
+ #itens{
+     display: none;
+     position:absolute;
+     top: 30px;
+ }
+.logo{
+    text-align: center;
+    background: var(--azul-padrao);
+    color: var(--branco);
+    border-radius: 5px;
+    padding: 0.2rem;
+    height: 90px;
+    width: 82px;
+}
+h2.logo__marca{
+    font-weight: 100px;
+}
+.logo__car{
+    margin-top: 10px;
+}
+h2.title__banner,h3{
+    font-weight: 200;
+}
 
-        text-align: justify;
-    }
-    ul li{
-	padding: 12px 0px;
-    }
-    .bg-update{
-        background: #045c91;
-    }
-    .colorFnttitle{
-        color: #ec531a;
-    }
-	.colorExp{
-		color: red;
-	}
-    .bg-cinza{
-        background: #eee;
-    }
-	p .txtFormAcad{
-		font-size: 14pt;
-        color: #045c91;
-	}
-	
-	.endItem{
-		padding: 0px 0px 15px 0px;
-	}
-    .fontIcon-pc{
-        font-size: 52pt;
-        background:white;
-        padding: 45px;
-        border-radius: 50%;
-    }
-    .colorFontWhite{
-        color: black;
-        padding: 15px 0px;
-    }
-    .miniFont{
-        font-size: 9pt;
-    }
-    footer{
-        color:white;
-		font-size: 11pt;
-    }
-    .foot{
-        padding: 35px 0px;
-        text-align: center;
-        color: white;
-    }
-    .xp{
-        background: #7ec53860;
-        padding: 45px 0px;
-    }
-    .cores{
-        color: white;
-    }
-	
-	.bg-green{
-		background: #7ec53860;
-	}
-	.contacts{
-		color: white;
-	}
-	 a{
-		text-decoration: none;
-		color: orange;
-	 } 
+h2{
+    padding: 10px 0px 0px 0px;
+}
+h3{
+    padding: 10px 0px 12px 0px;
+}
+
+.mini-banner{
+    padding: 0.5rem 0.3rem;
+    border-radius: 5px;
+    text-align: center;
+    background: var(--azul-padrao);
+    color: var(--branco);
+}
+
+.container-flex-col{
+    display: flex;
+    margin: 0.5rem 0rem;
+    justify-content:space-between;
+    align-items: center;
+}
