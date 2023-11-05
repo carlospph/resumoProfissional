@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>PortFolio</title>
+        <link rel="stylesheet" href="styles.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+<style>
+ .icon-menu{
+     font-size: 45px;
+     color: gray;
+ }
+ 
+    </style>
+    </head>
+    <body class="doc-main">
+        <header class="container-flex-main">
+           <div class="container-menu">
+            <div class="menu">
+                <span class="material-symbols-outlined icon-menu" onclick="abrirMenu()">menu</span>    
+            </div>
+            <div>
+                <ul id="itens">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Quem sou</a></li>
+                    <li><a href="">Formação</a></li>
+                    <li><a href="">Experiência</a></li>
+                    <li><a href="">Área de atuação</a></li>
+                    <li><a href="">Contatos</a></li>
+                </ul>
+            </div>
+           </div> 
+            <div class="container-flex-col">
+                <div class="logo">
+                    <h2 class="logo__car"> C4r</h2>
+                    <h4>705</h4>
+                </div>
+                <div class="mini-banner">
+                    <h2 class="title__banner">Carlos Nascimento</h2>
+                    <h3>DevelopedWEB</h3>
+                </div>
+            </div>
+            
+        </header>
+        
+        <section>
+            <p class="text__section">
+                Criando produtos e serviços digitais com foco na experiência Web 2.0, uso: HTML + CSS + JS
+            </p> 
+        </section>
+        
+        <main>
+            <div class="container-card">
+                <div class="card-icon"><span class="material-symbols-outlined">devices_other</span></div>
+                <div class="card-text">
+                    <h5 class="title_card">Aplicações</h5>
+                    <p class="p_card">Para dispositivos móveis, tablets e computadores</p>
+                </div>
+            </div>
+            
+            <div class="container-card">
+                <div class="card-icon"><span class="material-symbols-outlined">school</span></div>
+                <div class="card-text">
+                    <h5 class="title_card">Formação</h5>
+                    <p class="p_card">Qualificaçao técnica, ensino superior e EAD</p>
+                </div>
+            </div>
+            
+            <div class="container-card">
+                <div class="card-icon"><span class="material-symbols-outlined">account_balance</span></div>
+                <div class="card-text">
+                    <h5 class="title_card">Pilares Designer</h5>
+                    <p class="p_card">Estrutura Html e Css, Bootstrap 5.0 e Jscript</p>
+                </div>
+            </div>
+            
+            <div class="container-card">
+                <div class="card-icon"><span class="material-symbols-outlined">engineering</span></div>
+                <div class="card-text">
+                    <h5 class="title_card">Manutenção e suporte</h5>
+                    <p class="p_card">Implementação, criaçao e suporte para CSS3</p>
+                </div>
+            </div>
+            
+            <div class="container-card">
+                <div class="card-icon"><span class="material-symbols-outlined">swipe_up</span></div>
+                <div class="card-text">
+                    <h5 class="title_card">Codar puro e Bootstrap</h5>
+                    <p class="p_card">Codificação com CSS3 puro e com framework</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="footer__newsletter">
+                CADASTRE-SE E RECEBA NOSSO CONTEÚDO EXCLUSIVO
+            </p>
+            <div class="footer__container__input">
+                <input type="text" placeholder="Digite seu nome completo para o cadastro">
+            </div>
+            <div class="footer__container__input margin__input">
+                <input type="e-mail" placeholder="Digite seu e-mail para o cadastro">
+            </div>
+            
+            <div class="container__footer_redeSocial">
+                <div> <i class="bi bi-instagram"></i> </div>
+                <div> <i class="bi bi-whatsapp"></i> </div>
+                <div> <i class="bi bi-github"></i> </div>
+                <div class="link-btn"> Cadastrar</div>
+            </div>
+        </footer> 
+       <script type="text/javascript">
+            function abrirMenu(){
+                  
+                //alert("on");
+                
+                if(itens.style.display == 'block'){
+                    itens.style.display = 'none'
+                }
+                else{
+                    itens.style.display = 'block'
+                }
+            }
+            </script>
+    </body>
+</html>
