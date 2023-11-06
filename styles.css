@@ -8,7 +8,7 @@
 }
 body{
      width: 390px;
-     background: #ffdddd60;
+     background:#ADD8E6;
 }
 
 :root{
@@ -20,84 +20,141 @@ body{
 header{
     background: var(--branco);
     padding: 0px 0px 0.6rem 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .doc-main{
     width: 390px;
-    margin: 0 auto;
+    margin: 2px auto;
 }
 .container-flex-main{
     display: flex;
     flex-direction: column;
  }
+
+/***MENU - container***/
 .container-menu{
           justify-content: end;
           display: flex;
           flex-direction: column;
           margin: 0;
 }
-.menu{ 
-     margin-bottom: -15px;
- }
- ul{
-     margin-top: 0.5rem;
- }
- ul > li{
-     text-align: center;
-     background: black;
-     color: var(--branco);
-     padding: 0.6rem 137px;
-     border-bottom: 1px solid white;
-     display: block;
- }
- ul > li >a{
-     display: block;
-     color: var(--branco);
-     text-decoration: none;
+/* MENU */
+ .navbar-horizontal{
+    display: none;
  }
  #itens{
      display: none;
      position:absolute;
-     top: 49px;
+     top: 48px;
  }
-.logo{
+ ul.navbar{
+    background: black;
+ }
+ ul.navbar li{
+    border-bottom: 1px solid white;
     text-align: center;
-    background: var(--azul-padrao);
-    color: var(--branco);
-    border-radius: 5px;
-    padding: 0.2rem;
-    margin:0rem 0.4rem;
-    height: 90px;
-    width: 100px;
-}
-h2.logo__marca{
-    font-weight: 100px;
-}
-.logo__car{
-    margin-top: 10px;
-}
-h2.title__banner,h3{
-    font-weight: 200;
+    width: 390px;
+ }
+ ul.navbar li a.link-item{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.7rem;
+ }
+ 
+ 
+ /***Logo**/
+  
+.container__flex-logo-menu{
+       display: flex; 
+       justify-content: space-between;
 }
 
-h2{
-    padding: 10px 0px 0px 0px;
-}
-h3{
-    padding: 10px 0px 12px 0px;
+.logo{
+    color: var(--branco);
+    border-radius: 5px;
 }
 
 .mini-banner{
-    padding: 0.5rem 1.7rem;
-    border-radius: 5px;
-    text-align: center;
-    background: var(--azul-padrao);
     color: var(--branco);
-     margin:0rem 0.4rem;
+    border-radius: 5px;
 }
 
-.container-flex-col{
-    display: flex;
-    margin: 0.5rem 0rem;
-    justify-content:space-between;
-    align-items: center;
+.logomarca-car,
+.logomarca-los,
+.nome,
+.developed{
+    font-size: 28px;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    color:  var(--branco);
+    background:var(--azul-padrao);
+}
+
+.logomarca-car,
+.nome{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.logomarca-los,
+.developed{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 1rem;
+}
+.logomarca-car{
+    margin-left: 0.4rem;
+    padding-top: 1rem;
+}
+.logomarca-los{ 
+    margin-left:.4rem;
+    padding: 0rem 1.4rem 1rem 1.4rem;
+}
+.nome{
+    margin: 0px .4rem 0px 0px;
+    padding: 1rem .2rem 0rem .2rem;
+ }
+.developed{
+    margin: 0px .4rem 0px 0rem;
+    font-size: 20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+    padding: .8rem 4.4rem;
+}
+
+@media screen and (min-width: 769px){
+    body{
+        background: #33ddaa90;
+    }
+    .doc-main{
+        width: 790px;
+        margin: 0 auto;
+    }
+    header{
+        background: var(--branco);
+        margin-top: 1rem;
+        padding-top: 0.4rem;
+        display: flex;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .menu{
+        display: none;
+    }
+    .navbar-horizontal{
+        display: flex;
+        margin-right: .4rem;
+    }
+    .link-item{
+        padding: 1rem .6rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    .developed{
+        padding: 1rem;
+        border-radius: 5px;
+    }
 }
