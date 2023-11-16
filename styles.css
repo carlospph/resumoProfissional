@@ -1,9 +1,11 @@
 @import "stylesBanner.css";
-
+/***FONTS roboto 100 e 300 - **/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300&display=swap');
 *{
     padding: 0;
     margin: 0;
-    font-family: roboto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     list-style:none;
 }
 body{
