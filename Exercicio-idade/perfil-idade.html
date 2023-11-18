@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade</title>
+</head>
+
+<body>
+    <div class="container-all">
+        <header>
+            <h2>Perfil etário</h2>
+        </header>
+
+        <section>
+            <div class="container-img">
+                <h3>Buscar imagem e perfil </h3>
+                <p class="age-nasc">
+                    Ano de nascimento: <input type="number" name="" id="age">
+                </p>
+                <p>
+                    <input type="radio" name="genero" id="genero_fem" value="Feminino"> Feminino
+                    <input type="radio" name="genero" id="genero_masc" value="Masculino"> Masculino
+                </p>
+
+                <button onclick="verPerfil()">Verificar</button>
+                <img src="" id="imagem" alt="" width="180px">
+                </p>
+
+                <h5 id="resultado"></h5>
+            </div>
+        </section>
+        <footer>
+            <p>Carlos Nascimento | 2023</p>
+        </footer>
+    </div>
+    <!---Chamando JS--->
+    <script src="scriptIdade.js"></script>
+</body>
+
+</html>

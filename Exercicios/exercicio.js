@@ -10,7 +10,7 @@ function carregar(){
     var img =  document.getElementById('imagem');
 
     var data = new Date();
-        hora = data.getHours();    msgHora.innerHTML = `São mais de ${hora} horas`;
+        hora = data.getHours();    msgHora.innerHTML = `São mais de ${hora} horas`; 
 
     if(hora <= 12){
         document.body.style.backgroundColor = "#D2CBB1";
