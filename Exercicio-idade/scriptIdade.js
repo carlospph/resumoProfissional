@@ -12,7 +12,7 @@ var bolinhaFem = document.getElementById('genero_fem').checked;
 var bolinhaMasc = document.getElementById('genero_masc').checked;
 
 
-/***Verificadno ***/
+/***Verificando ***/
 if(age == ''){
     alert("Preenchimento é obrigatório")
 }
@@ -25,49 +25,20 @@ else if(bolinhaFem == false && bolinhaMasc == false){
 else{
     if(bolinhaFem == true){
         var generoAtualizado = "Feminino";
-        alert(generoAtualizado);
         img.src='images/menina2636.png';
+        /****passar a mensagem de resultado para imprimir na tela*****/
+        var resultadoMsg = document.getElementById('resultado').innerHTML = generoAtualizado;
+        var conta = 2023 - age;
+        document.getElementById('resultAge').innerHTML = conta + ' anos';
     }
     else{
         var generoAtualizado = "Masculino";
-        alert(generoAtualizado);
         img.src='images/homem5065.png';
+        /****passar a mensagem de resultado para imprimir na tela*****/
+        var resultadoMsg = document.getElementById('resultado').innerHTML = generoAtualizado;
+        var conta = 2023 - age;
+        var resultAge = document.getElementById('resultAge').innerHTML = conta + ' anos';
     }
 }
-//alert(bolinhaMasc);
 
 }
-
-
-
-    /****   
-       id = age 
-       id = fem 
-       id = masc
-       id = imagem ***/
-
- 
-      /*** 
-    if (age === '') {
-        alert("Campo obrigatório")
-    }
-    else {
-        var yearAtual = 2023;
-        var ageCalculed;
-    
-        ageCalculed = yearAtual - age;
-
-        if (ageCalculed >= 101) {
-            alert("Essa DATA DE NASCIMENTO não condiz com a realidade humana");
-        }
-        else if(ageCalculed <0 ){
-            alert("DATA DE NASCIMENTO maior do que a data atual");
-        }
-        else{
-            alert("Perfil pesquisado tem  " + ageCalculed + " Anos");
-
-        }
-        ****/
-
-    //    var fem = document.getElementById('fem').value;
-    //    var masc = document.getElementById('masc').value;
