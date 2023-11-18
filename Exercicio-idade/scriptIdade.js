@@ -23,7 +23,6 @@ else if(bolinhaFem == false && bolinhaMasc == false){
     alert("Preenchimento obrigatorio");
 }
 else{
-
     if(bolinhaFem == true){
         var generoAtualizado = "Feminino";
         alert(generoAtualizado);
