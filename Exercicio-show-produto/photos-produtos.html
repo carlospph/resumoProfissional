@@ -1,27 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Add-->
+    <link rel="stylesheet" href="stylesShowProduto.css">
+    <!---Add icones---->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Show cadeiras</title>
 </head>
+
 <body>
+    <!-- <h3>Deve ser assim...</h3> -->
+    <!-- <img src="images/layout.png"> -->
+    <div class="container-all">
+        <div class="container-coll">
+            <h4>Apresentação de produtos</h4>
+            <div class="box-a" onmouseover="abrirElemento()">
+                <img src="images/icon01.png" class="icon-poltrona">
+                <p class="legend-poltrona"> Banco</p>
+            </div>
 
-    <div class="box">
-        Clique A
+            <div class="box-b" onmouseover="abrirElementoB()">
+                <img src="images/icon02.png" class="icon-poltrona">
+                 <p class="legend-poltrona"> Frufru</p>
+            </div>
+
+            <div class="box-c" onmouseover="abrirElementoC()">
+                <img src="images/icon03.png" class="icon-poltrona">
+                 <p class="legend-poltrona">Nobre</p>
+            </div>
+
+            <div class="box-d" onmouseover="abrirElementoD()">
+                <img src="images/icon04.png" class="icon-poltrona">
+                 <p class="legend-poltrona">Class</p>
+
+            </div>
+            <div class="box-e" onmouseover="abrirElementoE()">
+                <img src="images/icon05.png" class="icon-poltrona">
+
+                 <p class="legend-poltrona">Vovó</p>
+            </div>
+        </div>
+
+        <div class="col-imagem-main">
+            <img src="" alt="" id="imagem" width="100%">
+        </div>
     </div>
 
-    <div class="box">
-        Clique B
-    </div>
-
-    <div class="box">
-        Clique C
-    </div>
-
-    <div class="box">
-        Clique D
-    </div>
     <script src="show.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.container-all{
+    background-image: url(images/fundo.png);
+    display: flex;
+    width: 380px;
+    margin: 0 auto;
+    padding: .5rem;
+    flex-direction: column;
+}
+.box-a, .box-b, .box-c, .box-d, .box-e{
+    background: rgb(238, 178, 178);
+    width: 90px;
+    margin: .2rem;
+    padding: .3rem;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.legend-poltrona{
+    font-size: 13px;
+}
+.icon-poltrona{
+    width: 33px;
+}
+.box-a:hover, .box-b:hover, .box-c:hover, .box-d:hover, .box-e:hover{
+    background-color: blue;
+    color: white;
+}
+.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-coll{
+    display: flex;
+}
+.col-imagem-main img{
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
