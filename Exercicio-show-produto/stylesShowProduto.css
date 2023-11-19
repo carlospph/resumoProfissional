@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -15,8 +17,11 @@ body{
     flex-direction: column;
 }
 .box-a, .box-b, .box-c, .box-d, .box-e{
+    display: flex;
+    align-items: center;
     background: rgb(238, 178, 178);
-    width: 90px;
+    min-width: 120px;
+    flex: 1;
     margin: .2rem;
     padding: .3rem;
     text-align: center;
@@ -24,23 +29,21 @@ body{
     cursor: pointer;
 }
 .legend-poltrona{
-    font-size: 13px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 .icon-poltrona{
     width: 33px;
 }
 .box-a:hover, .box-b:hover, .box-c:hover, .box-d:hover, .box-e:hover{
-    background-color: blue;
+    background-color: #8666C6;
     color: white;
-}
-.container-flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+}  
 .container-coll{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .col-imagem-main img{
     width: 100%;
@@ -49,5 +52,10 @@ body{
     border-radius: .5rem;
 }
 .title-show{
+    padding: 1rem 2rem;
     text-align: center;
+    flex-grow: 1;
+    color: #8666C6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
 }
