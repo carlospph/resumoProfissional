@@ -1,0 +1,3 @@
+function showProduto(){
+    alert("teste");
+}

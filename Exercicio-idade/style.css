@@ -28,8 +28,6 @@ button{
     border: 0px;
     box-shadow: 1px 1px 1px black;
 }
-section{
-}
 .container-img{
     background: rgb(196, 231, 214);
     width: 390px;
@@ -44,4 +42,7 @@ img{
 p{
     font-size: 18px;
     padding: .5rem;
+}
+.text-center{
+    text-align: center;
 }

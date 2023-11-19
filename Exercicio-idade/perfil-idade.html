@@ -22,12 +22,16 @@
                     Ano atual: 2023
                 </p>
                 <p>
-                    <input type="radio" name="genero" id="genero_fem" value="Feminino"> Feminino
-                    <input type="radio" name="genero" id="genero_masc" value="Masculino"> Masculino
+                    <label for="genero_fem">
+                        <input type="radio" name="genero" id="genero_fem" value="Feminino"> Feminino
+                    </label>
+                    <label for="genero_masc">
+                        <input type="radio" name="genero" id="genero_masc" value="Masculino"> Masculino
+                    </label>
                     <button onclick="verPerfil()">Verificar</button>
                 </p>
                 <p class="text-center">
-                <img src="" id="imagem" alt="" width="180px">
+                    <img src="" id="imagem" alt="" width="180px">
                 </p>
 
                 <h5 id="resultado"></h5>
