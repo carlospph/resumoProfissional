@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+    --azulPadrao: #1a336b;
+    --padd-default: 0.5rem;
+    --margin-default: 0.5rem;
+    --border-radius-default: 5px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--azulPadrao);
+    padding: var(--padd-default);
+}
+
+.all {
+    background: #f8f8ff;
+}
+
+header {
+    background: var(--azulPadrao);
+    border-radius: var(--border-radius-default);
+    padding: var(--padd-default);
+}
+
+h1.title-main {
+    color: white;
+}
+
+.container-cards {
+    background: black;
+}
+
+.card {
+    background: white;
+    text-align: center;
+    padding: var(--padd-default);
+    margin: var(--margin-default);
+    border-radius: var(--border-radius-default);
+}
+
+span.tam-icon {
+    font-size: 3.5rem;
+}
+
+.title-card {
+    font-weight: 700;
+}
+
+.text-card {
+    font-size: 13px;
+}
+
+.link-contact {
+    text-decoration: none;
+}
+
+/***CONTAINER INPUTS****/
+label {
+    font-size: 13px;
+    margin-left: .5rem;
+}
+
+input[type="text"],
+input[type="mail"],
+textarea {
+    padding: var(--padd-default);
+    border: 0px;
+    border-bottom: 1px solid gray;
+    outline: 0;
+    width: 95%;
+    border-radius: 5px;
+    margin-left: .5rem;
+}
+button{
+    margin-left: .5rem;
+}
+textarea {
+    height: 120px;
+}
+
+.container-exerno-form {
+    /*   border: 2px solid red; */
+    padding-top: 2rem;
+}
+
+.container-campo-form {
+    /*   border: 1px solid blue; */
+    padding: var(--padd-default);
+    margin-top: var(--margin-default);
+    margin-bottom: var(--margin-default);
+}
+
+textarea {
+    width: 95%;
+}
+
+.bg-primary {
+    background: var(--azulPadrao);
+    padding: 0.5rem 3rem;
+    color: white;
+    border-radius: 15px;
+}
+
+/****CONTAINER BANNER - rede social***/
+.container-banner-social {
+    color: var(--azulPadrao);
+    /*   border: 1px solid red; */
+    padding: var(--padd-default);
+}
+
+/****CONTAINER icones rede social***/
+.container-redes-sociais {
+    display: flex;
+    color: var(--azulPadrao);
+    padding: var(--padd-default);
+}
+
+.title-contact {
+    font-size: 27px;
+    color: var(--azulPadrao);
+}
+
+.subtitle-contact {
+    font-size: 15px;
+}
+
+.text-contact {
+    font-size: 15px;
+    text-align: justify;
+}
+
+div.item-icon-redeSocial {}
+
+.fa-facebook-f {
+    padding-right: 1rem;
+}
+
+.separate-individual {
+    padding: 0rem 1rem;
+}
+
+.fa-brands {
+    font-size: 1.6rem;
+    color: var(--azulPadrao);
+}
+
+
+
+@media (min-width: 569px) {
+    .all {
+        background: rgb(166, 181, 221);
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    h1.title-main{
+        /* border: 1px solid red; */
+        flex-basis: 100%;
+    }
+    .card{
+        width: 140px;
+        height: 128px;
+        flex-grow: 1;
+    }
+    .container-exerno-form{
+         /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+        .container-campo-form{
+            /* border: 3px solid blue; */
+            width: 45%;
+        }
+        .container-area{
+            flex-grow: 1;
+            flex-basis: 100%;
+        }
+        .container-banner-social{
+            /* border: 2px solid orangered; */
+            padding-right: 1rem;
+        }
+        .all-form{
+            /* border: 4px solid rgb(0, 255, 4); */
+            display: flex;
+        }
+        .container-banner-redes-sociais{
+            width: 45%;
+        }
+}
+
+
+
+
+@media (min-width: 1200px){
+    body{
+        background:var(--azulPadrao);
+    }
+    header{
+        background: rgb(166, 181, 221);
+
+    }
+    .all{
+        width: 1000px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .container-cards{
+        width: 800px;
+        border: 3px solid red;
+    }
+    input, textarea{
+        border-radius:5px;
+    }
+    input[type="text"], input[type="mail"]{
+        width: 150%;
+    }
+    .container-campo-form{
+        margin: .5rem;
+    }
+    .title-contact{
+        font-size: 40px;
+    }
+    .subtitle-contact{
+        font-size: 26px;
+        line-height: 2rem;
+    }
+    .text-contact{
+        font-size: 18px;
+        margin-right: 1rem;
+        line-height: 25px;
+    }
+    .container-redes-sociais{
+        /* border: 2px solid red; */
+        margin-top: .5rem;
+    }
+}
+
+/****
+
+#jornada do usuário,
+é simples,
+não tem regra boa,
+desenha do seu jeito ou da maneira que voce acha melhor.;
+
+***/

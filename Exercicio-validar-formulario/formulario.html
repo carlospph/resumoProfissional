@@ -16,27 +16,31 @@
             <h3 class="text-center font-cg">Preencha os campos abaixo para criar sua conta corrente</h3>
             <div>
                 <label for="nomeCliente">Nome</label><br>
-                <input type="text" name="nomeCliente" placeholder="Nome completo" id="nomeCliente" required minlength="8" maxlength="40">
+                <input type="text" name="nomeCliente" placeholder="Nome completo" id="nomeCliente" required
+                    minlength="8" maxlength="40">
                 <p id="erro01" class="msgErro"></p>
             </div>
 
             <div>
                 <label for="emailCliente">E-mail</label><br>
-                <input type="email" name="emailCliente" placeholder="E-mail" requiredid="emailCliente" required minlength="8" maxlength="40">
+                <input type="email" name="emailCliente" placeholder="E-mail" requiredid="emailCliente" required
+                    minlength="8" maxlength="40">
                 <p id="erro02" class="msgErro"></p>
 
             </div>
 
-            <div> 
+            <div>
                 <label for="rgCliente">RG</label> <br>
-                <input type="text" name="rgCliente" placeholder="Número do RG" id="rgCliente" required minlength="3" maxlength="30">
+                <input type="text" name="rgCliente" placeholder="Número do RG" id="rgCliente" required minlength="3"
+                    maxlength="30">
                 <p id="erro03" class="msgErro"></p>
 
             </div>
 
             <div>
                 <label for="cpfCliente">CPF (somente números)</label><br>
-                <input type="text" name="cpfCliente" placeholder="CPF" id="cpfCliente" required minlength="14" maxlength="14">
+                <input type="text" name="cpfCliente" placeholder="CPF" id="cpfCliente" required minlength="14"
+                    maxlength="14" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"/>
                 <p id="erro04" class="msgErro"></p>
 
             </div>
@@ -50,10 +54,12 @@
             </div>
 
             <div class="container-politicas">
-                <p> <input type="checkbox" id="politicas"> </p>
+                <p> <input type="checkbox" id="politicas" required> </p>
                 <p>
                     <label for="politicas"> Li e estou ciente quanto às condiçoes de tratamento dos meus dados conforme
                         descrito na Políitica de Privacidade do banco </label>
+                <p id="erro05" class="msgErro"></p>
+
                 </p>
             </div>
 
