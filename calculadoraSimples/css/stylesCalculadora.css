@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin:0;
+  }
+  body{
+    background-color: rgb(207, 222, 233);
+  }
+  :root{
+    --branco: #FFF8DC;
+    --padding: 0.5rem;
+    --margin: 0.3rem;
+    --rounder: 5px;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    margin: auto;
+    padding: .6rem 0rem;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(225, 134, 65); 
+    border-radius: 5px;
+   }
+  
+  .container-left{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-right{
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .campo{
+    background: var(--branco);
+    padding: var(--padding);
+    margin: var(--margin);
+    border-radius: var(--rounder);
+  }
+  
+  /* Estilizando o botão */
+  .btn {
+    margin: 0.5rem 0rem;
+    padding: 7px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white  ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilizando o botão quando o mouse passa por cima */
+  .btn:hover {
+    background-color: #45a049;
+  }
+  input[type='number']{
+    padding: .2rem .5rem;
+  }
+  
+  .campo__leitura{
+    background-color: gainsboro;
+  }
+  
+  h1, h2{
+    text-align: center;
+  }
+  h1{
+    margin: .6rem 0rem 2rem 0rem ;
+  }
+  h2{
+    margin: 2rem;
+  }
+  h4{
+    text-align: center;
+  }
+  
+   @media (max-width: 500px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }  
+   }
