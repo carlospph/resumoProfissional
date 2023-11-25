@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 42px;
+}
+img{
+    max-width: 100%;
+}
+.tam-icon-aw{
+    font-size: 36px;
+    background-color: (218,35,14,255);
+}
+.color-orange{
+    color: rgba(218,35,14,205);
+}
+.container-min-box{
+    border-left: 5px solid salmon;
+    padding-left: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+.container-min-box:nth-child(odd){
+    margin-left: 7rem;
+}
+
+.container-min-box:nth-child(2){
+    margin: 5rem 0rem;
+}
+.space-line-menor{
+    margin-top: -10px;
+}
+
+.nav-item{
+    padding: 0px 17px;
+}
+
+.corRed{
+    color: rgb(223, 26, 26);
+}
+
+
+/**Tablet**/
+@media only screen and (max-width: 992px) {
+     .container-min-box:nth-child(odd){
+         margin-left: 5rem;
+    }
+
+    .container-min-box:nth-child(2){
+    margin: 4rem 0rem;
+    }
+}
+
+/***Celular**/
+
+@media only screen and (max-width: 769px) {
+
+    .container-min-box:nth-child(odd) {
+         margin-left: 3rem;
+    }
+
+    .container-min-box:nth-child(2){
+    margin: 4rem 3rem;
+    }
+}body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 42px;
+}
+img{
+    max-width: 100%;
+}
+.tam-icon-aw{
+    font-size: 36px;
+    background-color: (218,35,14,255);
+}
+.color-orange{
+    color: rgba(218,35,14,205);
+}
+.container-min-box{
+    border-left: 5px solid salmon;
+    padding-left: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+.container-min-box:nth-child(odd){
+    margin-left: 7rem;
+}
+
+.container-min-box:nth-child(2){
+    margin: 5rem 0rem;
+}
+.space-line-menor{
+    margin-top: -10px;
+}
+
+.nav-item{
+    padding: 0px 17px;
+}
+
+.corRed{
+    color: rgb(223, 26, 26);
+}
+
+
+/**Tablet**/
+@media only screen and (max-width: 992px) {
+     .container-min-box:nth-child(odd){
+         margin-left: 5rem;
+    }
+
+    .container-min-box:nth-child(2){
+    margin: 4rem 0rem;
+    }
+}
+
+/***Celular**/
+
+@media only screen and (max-width: 769px) {
+
+    .container-min-box:nth-child(odd) {
+         margin-left: 3rem;
+    }
+
+    .container-min-box:nth-child(2){
+    margin: 4rem 3rem;
+    }
+}
