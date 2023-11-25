@@ -43,6 +43,9 @@ img{
 
 /**Tablet**/
 @media only screen and (max-width: 992px) {
+     body{
+        background-color: red;
+     }
      .container-min-box:nth-child(odd){
          margin-left: 5rem;
     }
